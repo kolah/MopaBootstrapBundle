@@ -8,7 +8,7 @@ namespace Mopa\Bundle\BootstrapBundle\Command;
 class BootstrapSymlinkLessCommand extends BaseBootstrapSymlinkCommand
 {
     public static $mopaBootstrapBundleName = "mopa/bootstrap-bundle";
-    public static $twitterBootstrapName = "twitter/bootstrap";
+    public static $twitterBootstrapName = "twbs/bootstrap";
     
     protected function getTwitterBootstrapName(){
         return self::$twitterBootstrapName;
